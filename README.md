@@ -18,8 +18,7 @@ Run in terminal:
 * $cd Desktop
 * $pkgutil --expand JDK\ 8\ Update\ 05.pkg folder
 * $cd folder
-* $cd jdk18005.pkg
-* $cp Payload files.gz
+* $cp jdk18005.pkg/Payload files.gz
 * $gunzip files.gz
 * $cpio -iv < files
 * $mkdir ~/java
