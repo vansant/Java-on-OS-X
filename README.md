@@ -1,24 +1,24 @@
 Java-8-on-OS-X-Mavericks
 ======================
 
-Java Development on OS X Mavericks
+Instructions for installing the Java SE (Standard Edition Development Kit (JDK) on OS X 
 
 ##Download the Java (Standard Edition) Developer Kit 
-Visit http://www.oracle.com/technetwork/java/javase/downloads/index.html to get the most recent version of the Java Platform (JDK). At the time of this writing it is version 8u5 and the OS X download is named jdk-8u5-macosx-x64.dmg.
+Visit http://www.oracle.com/technetwork/java/javase/downloads/index.html to get the most recent version of the Java Platform (JDK). At the time of this writing it is version 8u5 and the OS X download is named jdk-8u60-macosx-x64.dmg.
 
-##Java 8 Installation - Standard
-Open jdk-8u5-macosx-x64.dmg and double click on JDK 8 Update 05.pkg and follow the on screen instructions.
+##Java Installation - Standard
+Open jdk-8u60-macosx-x64.dmg and double click on JDK 8 Update 60.pkg and follow the on screen instructions.
 
-## Java 8 Installation - Without Admin Rights
+## Java Installation - Without Admin Rights
 
 ###Install Java Binaries from the Apple Disk Image (.dmg) to ~/java
-Mount the jdk-8u5-macosx-x64.dmg and drag the JDK 8 Update 05.pkg to the desktop.
+Mount the jdk-8u60-macosx-x64.dmg and drag the JDK 8 Update 60.pkg to the desktop.
 
 Run in terminal: 
 * $cd Desktop
-* $pkgutil --expand JDK\ 8\ Update\ 05.pkg folder
+* $pkgutil --expand JDK\ 8\ Update\ 60.pkg folder
 * $cd folder
-* $cp jdk18005.pkg/Payload files.gz
+* $cp cp jdk18060.pkg/Payload files.gz
 * $gunzip files.gz
 * $cpio -iv < files
 * $mkdir ~/java
